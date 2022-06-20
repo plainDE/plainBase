@@ -3,7 +3,7 @@ import json
 
 currentRelease = ''
 with open('/usr/share/plainDE/release_data', 'r') as releaseReader:
-	currentRelease = releaseReader.read()[:-1]
+	currentRelease = releaseReader.read().split('\n')[0]
 
 currentConfig = dict()
 configDir = os.getenv('HOME') + '/.config/plainDE/'
@@ -23,6 +23,8 @@ if currentConfig['configVersion'] != currentRelease:
 			currentConfig[key] = newConfig[key]
 		elif not(isinstance(currentConfig[key], type(newConfig[key]))):
 			currentConfig[key] = newConfig[key]
+	
+	currentConfig['configVersion'] = currentRelease
 
 	with open(configDir + 'config.json.sav', 'w') as configWriter:
 		json.dump(currentConfig, configWriter)
