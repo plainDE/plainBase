@@ -8,7 +8,7 @@ with open('/usr/share/plainDE/release_data', 'r') as releaseReader:
 currentConfig = dict()
 configDir = os.getenv('HOME') + '/.config/plainDE/'
 with open(configDir + 'config.json', 'r') as configReader:
-	json.load(currentConfig, configReader)
+	currentConfig = json.load(configReader)
 
 if currentConfig['configVersion'] != currentRelease:
 	os.rename(configDir + 'config.json', configDir + 'config.json.sav')
@@ -16,7 +16,7 @@ if currentConfig['configVersion'] != currentRelease:
 	
 	newConfig = dict()
 	with open(configDir + 'config.json', 'r') as configReader:
-		json.load(newConfig, configReader)
+		newConfig = json.load(configReader)
 	
 	for key in newConfig.keys():
 		if not(key in currentConfig.keys()):
