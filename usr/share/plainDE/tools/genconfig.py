@@ -34,7 +34,8 @@ config = {'accent': '#376594',
 		  'theme': 'gradient-light.qss',
 		  'timeFormat': 'h:mm AP',
 		  'useCountryFlag': True,
-		  'xOffset': 0}
+		  'xOffset': 0,
+		  'ipIfname': ''}
 
 
 homePath = os.getenv('HOME')
