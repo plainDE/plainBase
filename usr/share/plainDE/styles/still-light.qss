@@ -3,7 +3,8 @@ QWidget#appMenu, QWidget#userMenu,
 QWidget#panelPane, QWidget#autostartPane,
 QWidget#appletsPane, QWidget#appearancePane,
 QWidget#datetimeAppletPane, QWidget#appMenuAppletPane,
-QWidget#about, QWidget#keyboardPane, QWidget#layoutDialog {
+QWidget#about, QWidget#keyboardPane, QWidget#layoutDialog,
+QWidget#localIPv4AppletPane {
     background-color: #e8e8e8;
 }
 
