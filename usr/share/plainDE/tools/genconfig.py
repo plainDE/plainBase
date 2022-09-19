@@ -8,10 +8,10 @@ with open('/usr/share/plainDE/release_data', 'r') as reader:
 config = {'accent': '#376594',
 		  'appMenuTriangularTabs': True,
 		  'applets': ['appmenu', 'windowlist',
-					  'spacer', 'workspaces',
-					  'volume', 'kblayout',
-					  'datetime', 'splitter',
-					  'usermenu'],
+					  'spacer', 'mpris',
+					  'workspaces', 'volume', 
+					  'kblayout', 'datetime', 
+					  'splitter', 'usermenu'],
 		  'autostart': [],
 		  'background': '',
 		  'configVersion': releaseVersion,
@@ -35,7 +35,7 @@ config = {'accent': '#376594',
 		  'timeFormat': 'h:mm AP',
 		  'useCountryFlag': True,
 		  'xOffset': 0,
-		  'ipIfname': ''}
+		  'ipIfname': '' }
 
 
 homePath = os.getenv('HOME')
