@@ -19,11 +19,11 @@ if currentConfig['configVersion'] != currentRelease:
 		newConfig = json.load(configReader)
 	
 	for key in newConfig.keys():
-		if not(key in currentConfig.keys()):
+		if key not in currentConfig.keys():
 			currentConfig[key] = newConfig[key]
 		elif not(isinstance(currentConfig[key], type(newConfig[key]))):
 			currentConfig[key] = newConfig[key]
-	
+
 	currentConfig['configVersion'] = currentRelease
 
 	with open(configDir + 'config.json.sav', 'w') as configWriter:

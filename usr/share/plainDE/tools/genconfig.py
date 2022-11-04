@@ -7,17 +7,11 @@ with open('/usr/share/plainDE/release_data', 'r') as reader:
 
 config = {'accent': '#376594',
 		  'appMenuTriangularTabs': True,
-		  'applets': ['appmenu', 'windowlist',
-					  'spacer', 'mpris',
-					  'workspaces', 'volume', 
-					  'kblayout', 'datetime', 
-					  'splitter', 'usermenu'],
 		  'autostart': [],
 		  'background': '',
 		  'configVersion': releaseVersion,
 		  'dateFormat': 'MMM d',
 		  'enableAnimation': True,
-		  'expandPanel': True,
 		  'favApps': [],
 		  'firstDayOfWeek': 1,
 		  'fontFamily': 'Open Sans',
@@ -27,15 +21,38 @@ config = {'accent': '#376594',
 		  'kbLayouts': 'us',
 		  'menuIcon': '/usr/share/plainDE/menuIcon.png',
 		  'menuText': 'Apps',
-		  'panelHeight': 28,
-		  'panelLocation': 'top',
-		  'panelOpacity': 0.85,
 		  'showDate': True,
 		  'theme': 'gradient-light.qss',
 		  'timeFormat': 'h:mm AP',
 		  'useCountryFlag': True,
-		  'xOffset': 0,
-		  'ipIfname': '' }
+		  'ipIfname': '',
+		  'panel1': {
+		  	'applets': ['appmenu', 
+						'spacer', 
+						'mpris', 
+						'volume', 
+						'kblayout', 
+						'datetime', 
+						'splitter', 
+						'usermenu'],
+			'expand': True,
+			'height': 28,
+			'location': "top",
+			'opacity': 0.85,
+			'xOffset': 0
+		  },
+		  'panel2': {
+		  	'applets': ['windowlist',
+						'spacer',
+						'localipv4',
+						'workspaces'],
+			'expand': True,
+			'height': 28,
+			'location': "bottom",
+			'opacity': 0.85,
+			'xOffset': 0
+		  } 
+		 }
 
 
 homePath = os.getenv('HOME')
