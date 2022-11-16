@@ -39,7 +39,8 @@ config = {'accent': '#376594',
 			'height': 28,
 			'location': "top",
 			'opacity': 0.85,
-			'xOffset': 0
+			'xOffset': 0,
+			'launcherIconSize': 22
 		  },
 		  'panel2': {
 		  	'applets': ['windowlist',
@@ -50,7 +51,8 @@ config = {'accent': '#376594',
 			'height': 28,
 			'location': "bottom",
 			'opacity': 0.85,
-			'xOffset': 0
+			'xOffset': 0,
+			'launcherIconSize': 22
 		  } 
 		 }
 
