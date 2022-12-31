@@ -29,6 +29,7 @@ config = {'accent': '#376594',
 		  'panel1': {
 		  	'applets': ['appmenu', 
 						'spacer', 
+						'battery',
 						'mpris', 
 						'volume', 
 						'kblayout', 
