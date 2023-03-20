@@ -19,9 +19,14 @@ QComboBox, QSpinBox, QDoubleSpinBox, QTextEdit {
     color: #f3f3f3;
 }
 
-QTabBar::tab {
+QTabBar::tab:!selected {
     color: #f3f3f3;
     background-color: #222222;
+}
+
+QTabBar::tab:selected {
+    color: #ffffff;
+    background-color: #000000;
 }
 
 QCheckBox, QRadioButton {
