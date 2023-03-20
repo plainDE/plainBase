@@ -27,7 +27,12 @@ QCheckBox, QRadioButton {
     color: #aaaaaa;
 }
 
-QTabBar::tab {
+QTabBar::tab:!selected {
+    color: #ffffff;
+    background-color: #151515;
+}
+
+QTabBar::tab:selected {
     color: #ffffff;
     background-color: #040404;
 }
