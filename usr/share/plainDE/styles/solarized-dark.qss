@@ -9,11 +9,11 @@ QWidget#appletsPane, QWidget#appearancePane,
 QWidget#datetimeAppletPane, QWidget#appMenuAppletPane,
 QWidget#about, QWidget#keyboardPane, QWidget#layoutDialog,
 QWidget#localIPv4AppletPane, QWidget#panelsPane,
-QWidget#mprisApplet, QWidget#mprisCard, QInputDialog {
+QWidget#mprisApplet, QWidget#mprisCard, QInputDialog, QMessageBox {
     background-color: #073642;
 }
 
-QLabel {
+QLabel, QMessageBox {
     color: #93a1a1;
 }
 
