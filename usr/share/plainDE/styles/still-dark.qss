@@ -13,7 +13,7 @@ QWidget#mprisApplet, QWidget#mprisCard, QInputDialog, QMessageBox {
     background-color: #151515;
 }
 
-QLabel {
+QLabel, QMessageBox {
     color: #f3f3f3;
 }
 
