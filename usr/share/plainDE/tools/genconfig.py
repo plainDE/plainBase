@@ -6,7 +6,7 @@ with open('/usr/share/plainDE/release_data', 'r') as reader:
 	releaseVersion = reader.read()[:-1]
 
 config = {'accent': '#376594',
-          'ipColor': '#000000',
+          'ipColor': '#ffffff',
 		  'appMenuTriangularTabs': True,
 		  'autostart': [],
 		  'background': '',
