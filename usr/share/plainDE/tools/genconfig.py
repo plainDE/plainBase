@@ -60,8 +60,8 @@ config = {'accent': '#376594',
 			'spacing': 5,
 			'launcherIconSize': 22
 		  },
-		  'panel3': null,
-		  'panel4': null
+		  'panel3': None,
+		  'panel4': None
 		 }
 
 
