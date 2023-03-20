@@ -6,9 +6,11 @@ with open('/usr/share/plainDE/release_data', 'r') as reader:
 	releaseVersion = reader.read()[:-1]
 
 config = {'accent': '#376594',
+          'ipColor': '#000000',
 		  'appMenuTriangularTabs': True,
 		  'autostart': [],
 		  'background': '',
+		  'countPanels': 4,
 		  'configVersion': releaseVersion,
 		  'dateFormat': 'MMM d',
 		  'enableAnimation': True,
@@ -22,13 +24,14 @@ config = {'accent': '#376594',
 		  'menuIcon': '/usr/share/plainDE/menuIcon.png',
 		  'menuText': 'Apps',
 		  'showDate': True,
-		  'theme': 'gradient-light.qss',
+		  'theme': 'gradient-dark.qss',
 		  'timeFormat': 'h:mm AP',
 		  'useCountryFlag': True,
 		  'ipIfname': '',
 		  'panel1': {
 		  	'applets': ['appmenu', 
-						'spacer', 
+						'spacer',
+                        'sni' 
 						'battery',
 						'mpris', 
 						'volume', 
@@ -37,10 +40,11 @@ config = {'accent': '#376594',
 						'splitter', 
 						'usermenu'],
 			'expand': True,
-			'height': 28,
+			'thickness': 28,
 			'location': "top",
 			'opacity': 0.85,
-			'xOffset': 0,
+			'shift': 0,
+			'spacing': 5,
 			'launcherIconSize': 22
 		  },
 		  'panel2': {
@@ -49,12 +53,15 @@ config = {'accent': '#376594',
 						'localipv4',
 						'workspaces'],
 			'expand': True,
-			'height': 28,
+			'thickness': 28,
 			'location': "bottom",
 			'opacity': 0.85,
-			'xOffset': 0,
+			'shift': 0,
+			'spacing': 5,
 			'launcherIconSize': 22
-		  } 
+		  },
+		  'panel3': null,
+		  'panel4': null
 		 }
 
 
