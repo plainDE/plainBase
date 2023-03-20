@@ -31,7 +31,7 @@ config = {'accent': '#376594',
 		  'panel1': {
 		  	'applets': ['appmenu', 
 						'spacer',
-                        'sni' 
+                        'sni', 
 						'battery',
 						'mpris', 
 						'volume', 
