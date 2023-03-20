@@ -7,7 +7,7 @@ with open('/usr/share/plainDE/release_data', 'r') as reader:
 
 config = {'accent': '#376594',
           'ipColor': '#ffffff',
-		  'appMenuTriangularTabs': True,
+		  'useTriangularTabs': False,
 		  'autostart': [],
 		  'background': '',
 		  'countPanels': 4,
