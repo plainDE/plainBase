@@ -6,6 +6,8 @@ with open('/usr/share/plainDE/release_data', 'r') as reader:
 	releaseVersion = reader.read()[:-1]
 
 config = {'accent': '#376594',
+	  'avatar': '',
+	  'winListIconSize': 22,
           'ipColor': '#ffffff',
 		  'useTriangularTabs': False,
 		  'autostart': [],
