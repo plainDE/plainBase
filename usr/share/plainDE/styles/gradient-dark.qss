@@ -16,7 +16,8 @@ QLabel, QMessageBox {
 }
 
 QPushButton, QLineEdit, QListWidget,
-QComboBox, QSpinBox, QDoubleSpinBox, QTextEdit {
+QComboBox, QSpinBox, QDoubleSpinBox, 
+QTextEdit, QToolTip {
     background-color: #262626;
     color: #f3f3f3;
 }

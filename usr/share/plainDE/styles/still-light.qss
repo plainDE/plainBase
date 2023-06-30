@@ -15,7 +15,7 @@ QLabel, QMessageBox {
     color: #010101;
 }
 
-QPushButton {
+QPushButton, QToolTip {
     background-color: #e8e8e8;
     color: #010101;
 }
