@@ -11,6 +11,7 @@ QWidget#about, QWidget#keyboardPane, QWidget#layoutDialog,
 QWidget#localIPv4AppletPane, QWidget#panelsPane,
 QWidget#mprisApplet, QWidget#mprisCard, QInputDialog,
 QWidget#winListAppletPane, QWidget#userMenuAppletPane,
+QWidget#cliOutputAppletPane,
 QMessageBox {
     background-color: #151515;
 }
@@ -46,4 +47,8 @@ QDial, QTabWidget {
 
 QPushButton#userMenuPushButton {
     text-align: right;
+}
+
+QScrollArea, QWidget#conditionsWidget {
+	background: transparent;
 }

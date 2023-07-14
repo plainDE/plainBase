@@ -33,6 +33,8 @@ config = {'accent': '#376594',
 		  'useCountryFlag': True,
 	  	  'volumeAdjustMethod': 'ALSA',
 		  'ipIfname': '',
+		  'winListShowTitles': True,
+		  'showWeekNumbers': True,
 		  'panel1': {
 		  	'applets': ['appmenu', 
 						'spacer',

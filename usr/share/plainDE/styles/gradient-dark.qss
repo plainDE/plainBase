@@ -7,6 +7,7 @@ QWidget#about, QWidget#keyboardPane, QWidget#layoutDialog,
 QWidget#localIPv4AppletPane, QWidget#panelsPane,
 QWidget#mprisApplet, QWidget#mprisCard, QInputDialog, 
 QWidget#winListAppletPane, QWidget#userMenuAppletPane,
+QWidget#cliOutputAppletPane,
 QMessageBox {
     background-color: qlineargradient(spread:pad, x1:0.523, y1:0.568182, x2:0.517, y2:1, stop:0 rgba(34, 34, 34, 255), stop:1 rgba(17, 17, 17, 255));
 }
@@ -42,4 +43,8 @@ QDial, QTabWidget, QScrollBar {
 
 QPushButton#userMenuPushButton {
     text-align: right;
+}
+
+QScrollArea, QWidget#conditionsWidget {
+	background: transparent;
 }
