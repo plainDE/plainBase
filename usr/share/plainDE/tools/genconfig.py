@@ -35,6 +35,7 @@ config = {'accent': '#376594',
 		  'ipIfname': '',
 		  'winListShowTitles': True,
 		  'showWeekNumbers': True,
+		  'showDesktopNames': False,
 		  'panel1': {
 		  	'applets': ['appmenu', 
 						'spacer',

@@ -11,7 +11,8 @@ QWidget#about, QWidget#keyboardPane, QWidget#layoutDialog,
 QWidget#localIPv4AppletPane, QWidget#panelsPane,
 QWidget#mprisApplet, QWidget#mprisCard, QInputDialog,
 QWidget#winListAppletPane, QWidget#userMenuAppletPane,
-QWidget#cliOutputAppletPane,
+QWidget#cliOutputAppletPane, QWidget#volumeAppletPane,
+QWidget#workspacesAppletPane,
 QMessageBox {
     background-color: #151515;
 }
@@ -22,9 +23,20 @@ QLabel, QMessageBox {
 
 QPushButton, QLineEdit, QListWidget,
 QComboBox, QSpinBox, QDoubleSpinBox, 
-QTextEdit, QScrollBar, QToolTip {
+QTextEdit, QScrollBar {
     background-color: #262626;
     color: #f3f3f3;
+}
+
+QToolTip {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 10pt;
+    padding: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: #D8D8D8;
 }
 
 QCheckBox, QRadioButton {
