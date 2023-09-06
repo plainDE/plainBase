@@ -42,3 +42,7 @@ QPushButton#userMenuPushButton {
 QScrollArea, QWidget#conditionsWidget {
 	background: transparent;
 }
+
+QComboBox QAbstractItemView {
+        background-color: #e8e8e8;
+}
