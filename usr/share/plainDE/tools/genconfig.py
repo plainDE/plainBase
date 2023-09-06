@@ -53,6 +53,7 @@ config = {'accent': '#376594',
 			'opacity': 0.85,
 			'shift': 0,
 			'spacing': 5,
+			'margin': 5,
 			'launcherIconSize': 22
 		  },
 		  'panel2': {
@@ -66,6 +67,7 @@ config = {'accent': '#376594',
 			'opacity': 0.85,
 			'shift': 0,
 			'spacing': 5,
+	  		'margin': 5,
 			'launcherIconSize': 22
 		  },
 		  'panel3': None,
