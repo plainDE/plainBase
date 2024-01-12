@@ -65,7 +65,7 @@
     "panel4": null,
     "secondsUntilPowerOff": 30,
     "showDate": true,
-    "showDesktopNames": true,
+    "showDesktopNames": false,
     "showWeekNumbers": true,
     "theme": "gradient-dark.qss",
     "timeFormat": "h:mm:ss AP",
