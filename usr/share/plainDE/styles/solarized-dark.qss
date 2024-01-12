@@ -4,20 +4,12 @@ QWidget#panel {
 
 QWidget#controlCenter,
 QWidget#appMenu, QWidget#userMenu,
-QWidget#panelPane, QWidget#autostartPane,
-QWidget#appletsPane, QWidget#appearancePane,
-QWidget#datetimeAppletPane, QWidget#appMenuAppletPane,
-QWidget#about, QWidget#keyboardPane, QWidget#layoutDialog,
-QWidget#localIPv4AppletPane, QWidget#panelsPane,
-QWidget#mprisApplet, QWidget#mprisCard, QInputDialog, 
-QWidget#winListAppletPane, QWidget#userMenuAppletPane,
-QWidget#cliOutputAppletPane, QWidget#volumeAppletPane,
-QWidget#workspacesAppletPane,
-QMessageBox {
+QWidget#about, QWidget#mprisApplet, QWidget#mprisCard, 
+QWidget#innerPane, QMessageBox, QWidget#powerDialog {
     background-color: #073642;
 }
 
-QLabel, QMessageBox {
+QLabel, QMessageBox, QToolButton {
     color: #93a1a1;
 }
 

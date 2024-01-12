@@ -1,0 +1,59 @@
+QWidget#panel, QWidget#mprisCard, QMessageBox, 
+QWidget#innerPane {
+    background-color: transparent;
+}
+
+QLabel, QToolButton, QGroupBox, QMessageBox {
+    color: #f3f3f3;
+}
+
+QCheckBox, QRadioButton {
+    color: #aaaaaa;
+}
+
+QLineEdit, QListWidget,
+QSpinBox, QDoubleSpinBox, QTextEdit, 
+QToolTip {
+    background-color: transparent;
+    color: #f3f3f3;
+}
+
+QPushButton, QComboBox, QFileDialog {
+    background-color: #262626;
+    color: #f3f3f3;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #262626;
+}
+
+QTabWidget::pane {
+    border: 0;
+}
+
+QTabBar::tab:selected {
+    background-color: transparent;
+    color: #f3f3f3;
+}
+
+QTabBar::tab:!selected {
+    background-color: transparent;
+    color: #f3f3f3;
+}
+
+QToolTip {
+    font-size: 10pt;
+    padding: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: #D8D8D8;
+}
+
+QPushButton#userMenuButton {
+    text-align: right;
+}
+
+QScrollArea, QWidget#conditionsWidget {
+    background: transparent;
+}

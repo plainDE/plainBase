@@ -1,16 +1,12 @@
 QWidget#panel, QWidget#controlCenter,
 QWidget#appMenu, QWidget#userMenu,
-QWidget#panelPane, QWidget#autostartPane,
-QWidget#appletsPane, QWidget#appearancePane,
-QWidget#datetimeAppletPane, QWidget#appMenuAppletPane,
-QWidget#about, QWidget#keyboardPane, QWidget#layoutDialog,
-QWidget#localIPv4AppletPane, QWidget#panelsPane,
-QWidget#mprisApplet, QWidget#mprisCard, QInputDialog, 
-QWidget#winListAppletPane, QWidget#userMenuAppletPane,
-QWidget#cliOutputAppletPane, QWidget#volumeAppletPane,
-QWidget#workspacesAppletPane,
-QMessageBox {
+QWidget#about, QWidget#mprisApplet, QWidget#mprisCard, 
+QWidget#innerPane, QMessageBox, QWidget#powerDialog {
     background-color: qlineargradient(spread:pad, x1:0.502, y1:0, x2:0.507, y2:1, stop:0 rgba(255, 255, 255, 255),stop:1 rgba(207, 207, 207, 255));
+}
+
+QToolButton {
+    color: #262626;
 }
 
 QToolTip {

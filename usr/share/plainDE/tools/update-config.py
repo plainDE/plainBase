@@ -1,33 +1,27 @@
 import os
 import json
 
-currentRelease = ''
 with open('/usr/share/plainDE/release_data', 'r') as releaseReader:
-	currentRelease = releaseReader.read().split('\n')[0]
+    release = releaseReader.read()
+    if release.endswith('\n'):
+        release = release[:-1]
 
-currentConfig = dict()
-configDir = os.getenv('HOME') + '/.config/plainDE/'
-with open(configDir + 'config.json', 'r') as configReader:
-	currentConfig = json.load(configReader)
+cfgPath = f'{os.getenv("HOME")}/.config/plainDE/config.json'
+with open(cfgPath, 'r') as cfgReader:
+    config = json.load(cfgReader)
 
-if currentConfig['configVersion'] != currentRelease:
-	os.rename(configDir + 'config.json', configDir + 'config.json.sav')
-	os.system('python3 /usr/share/plainDE/tools/genconfig.py')
-	
-	newConfig = dict()
-	with open(configDir + 'config.json', 'r') as configReader:
-		newConfig = json.load(configReader)
-	
-	for key in newConfig.keys():
-		if key not in currentConfig.keys():
-			currentConfig[key] = newConfig[key]
-		elif not(isinstance(currentConfig[key], type(newConfig[key]))):
-			currentConfig[key] = newConfig[key]
+configVersion = config['configVersion']
+if configVersion != release:
+    with open('/usr/share/plainDE/defaultCfg.json', 'r') as cfgReader:
+        defaultConfig = json.load(cfgReader)
 
-	currentConfig['configVersion'] = currentRelease
+    for entry in defaultConfig:
+        if entry not in config:
+            config[entry] = defaultConfig[entry]
+        elif not isinstance(config[entry], type(defaultConfig[entry])):
+            commentedKey = f'#{entry}'
+            config[commentedKey] = config[entry]
+            config[entry] = defaultConfig[entry]
 
-	with open(configDir + 'config.json.sav', 'w') as configWriter:
-		json.dump(currentConfig, configWriter)
-	
-	os.remove(configDir + 'config.json')
-	os.rename(configDir + 'config.json.sav', configDir + 'config.json')
+    with open(cfgPath, 'w') as cfgWriter:
+        json.dump(config, cfgWriter, indent=4)

@@ -1,0 +1,121 @@
+{
+	"Accent": "cs-themes;appearance",
+
+	"Avatar": "user_icon;panels->panelX->usermenu",
+
+	"Use triangular tabs": "cs-themes;general",
+	"Triangular tabs": "cs-general;general",
+
+	"Autostart": "cs-general;autostart",
+
+	"Date Format": "calendar;panels->panelX->datetime",
+	"Format of Date": "calendar;panels->panelX->datetime",
+
+	"Time Format": "calendar;panels->panelX->datetime",
+	"Format of Time": "calendar;panels->panelX->datetime",
+
+	"Animation": "cs-general;general",
+	"Enable Animation": "cs-general;general",
+        "Toggle Animation": "cs-general;general",
+
+	"Overamplification": "cs-sound;panels->panelX->volume",
+	"Enable Overamplification": "cs-sound;panels->panelX->volume",
+	"Toggle Overamplification": "cs-sound;panels->panelX->volume",
+	
+	"Favorite Apps": "app-launcher;panels->panelX->appmenu",
+	"Pinned Apps": "app-launcher;panels->panelX->appmenu",
+	
+	"First Day of Week": "calendar;panels->panelX->datetime",
+	"Day of Week": "calendar;panels->panelX->datetime",
+
+	"Font": "cs-themes;appearance",
+
+	"Icon Theme": "cs-themes;appearance",
+	
+	"IP Color": "cs-themes;appearance",
+	"Local IP Color": "cs-themes;appearance",
+
+	"Network Interface": "cs-network;panels->panelX->localipv4",
+	"IP Address Network Interface": "cs-network;panels->panelX->localipv4",
+	"Local IP Network Interface": "cs-network;panels->panelX->localipv4",
+
+	"Keyboard Layouts": "keyboard;keyboard",
+	"Layouts of Keyboard": "keyboard;keyboard",
+	
+	"Keyboard Layout Toggle Method": "keyboard;keyboard",
+	"Layout Toggle Method": "keyboard;keyboard",
+	
+	"Menu Icon": "app-launcher;panels->panelX->appmenu",
+	"App Menu Icon": "app-launcher;panels->panelX->appmenu",
+	
+	"Menu Icon Size": "app-launcher;panels->panelX->appmenu",
+	"App Menu Icon Size": "app-launcher;panels->panelX->appmenu",
+	
+	"Show Date": "calendar;panels->panelX->datetime",
+	"Enable Date": "calendar;panels->panelX->datetime",
+	"Toggle Date": "calendar;panels->panelX->datetime",
+
+	"Window List Icon Size": "preferences-system-windows;panels->panelX->windowlist",
+	
+	"Theme": "cs-themes;appearance",
+	"Stylesheet": "cs-themes;appearance",
+	
+	"Use Country Flag": "keyboard;panels->panelX->kblayout",
+	"Show Country Flag": "keyboard;panels->panelX->kblayout",
+	"Flag of Keyboard Layout": "keyboard;panels->panelX->kblayout",
+	"Toggle Flag of Keyboard Layout": "keyboard;panels->panelX->kblayout",
+	
+	"Default Volume": "cs-sound;panels->panelX->volume",
+	"Initial Volume": "cs-sound;panels->panelX->volume",
+
+	"Applets": "cs-applets;panels->panel?",
+	
+	"Expand Panel": "cs-applets;panels->panel?",
+	"Stretch Panel": "cs-applets;panels->panel?",
+
+	"Launcher Icon Size": "cs-applets;panels->panel?",
+	
+	"Panel Location": "cs-applets;panels->panel?",
+	"Location of Panel": "cs-applets;panels->panel?",
+
+	"Panel Layout Margin": "cs-applets;panels->panel?",
+	"Margin of Panel Layout": "cs-applets;panels->panel?",
+	
+	"Panel Opacity": "cs-applets;panels->panel?",
+	"Opacity of Panel": "cs-applets;panels->panel?",
+
+	"Panel Screen": "cs-applets;panels->panel?",
+	"Panel Monitor": "cs-applets;panels->panel?",
+	"Screen": "cs-applets;panels->panel?",
+	"Monitor": "cs-applets;panels->panel?",
+
+	"Panel Shift": "cs-applets;panels->panel?",
+	"Panel Axis Shift": "cs-applets;panels->panel?",
+	"Shift of Panel": "cs-applets;panels->panel?",
+	"Axis Shift of Panel": "cs-applets;panels->panel?",
+
+	"Panel Layout Spacing": "cs-applets;panels->panel?",
+	"Spacing of Panel Layout": "cs-applets;panels->panel?",
+	"Applet Spacing": "cs-applets;panels->panel?",
+	
+	"Panel Thickness": "cs-applets;panels->panel?",
+	"Thickness of Panel": "cs-applets;panels->panel?",
+
+	"Shutdown Timer": "user_icon;panels->panelX->usermenu",
+	"Power Off Timer": "user_icon;panels->panelX->usermenu",
+	"Reboot Timer": "user_icon;panels->panelX->usermenu",
+	"Logout Timer": "user_icon;panels->panelX->usermenu",
+	"Timer of Shutdown": "user_icon;panels->panelX->usermenu",
+
+	"Show Workspaces Names": "workspace-switcher-top-left;panels->panelX->workspaces",
+	"Names of Workspaces": "workspace-switcher-top-left;panels->panelX->workspaces",
+	"Workspaces Names": "workspace-switcher-top-left;panels->panelX->workspaces",
+
+	"Volume Adjust Method": "cs-sound;panels->panelX->volume",
+	"PulseAudio/ALSA": "cs-sound;panels->panelX->volume",
+	"ALSA/PulseAudio": "cs-sound;panels->panelX->volume",
+
+	"Show Titles of Windows": "preferences-system-windows;panels->panelX->windowlist",
+	"Toggle Window Titles": "preferences-system-windows;panels->panelX->windowlist",
+	"Titles of Windows": "preferences-system-windows;panels->panelX->windowlist"
+}
