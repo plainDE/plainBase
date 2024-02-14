@@ -16,7 +16,7 @@ if configVersion != release:
         defaultConfig = json.load(cfgReader)
 
     for entry in defaultConfig:
-        if not entry.startswith('panel')
+        if not entry.startswith('panel'):
             if entry not in config:
                 config[entry] = defaultConfig[entry]
             elif not isinstance(config[entry], type(defaultConfig[entry])):
