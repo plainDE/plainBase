@@ -16,12 +16,13 @@ if configVersion != release:
         defaultConfig = json.load(cfgReader)
 
     for entry in defaultConfig:
-        if entry not in config:
-            config[entry] = defaultConfig[entry]
-        elif not isinstance(config[entry], type(defaultConfig[entry])):
-            commentedKey = f'#{entry}'
-            config[commentedKey] = config[entry]
-            config[entry] = defaultConfig[entry]
+        if not entry.startswith('panel')
+            if entry not in config:
+                config[entry] = defaultConfig[entry]
+            elif not isinstance(config[entry], type(defaultConfig[entry])):
+                commentedKey = f'#{entry}'
+                config[commentedKey] = config[entry]
+                config[entry] = defaultConfig[entry]
 
     with open(cfgPath, 'w') as cfgWriter:
         json.dump(config, cfgWriter, indent=4)
