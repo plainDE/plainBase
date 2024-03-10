@@ -5,7 +5,7 @@ QWidget#panel {
 QWidget#controlCenter,
 QWidget#appMenu, QWidget#userMenu,
 QWidget#about, QWidget#mprisApplet, QWidget#mprisCard, 
-QWidget#innerPane, QMessageBox, QWidget#powerDialog {
+QWidget#innerPane, QMessageBox, QWidget#powerDialog, QWidget#layoutChooser {
     background-color: #151515;
 }
 

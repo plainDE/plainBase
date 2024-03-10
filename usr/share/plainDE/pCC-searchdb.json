@@ -69,9 +69,16 @@
 	"Initial Volume": "cs-sound;panels->panelX->volume",
 
 	"Applets": "cs-applets;panels->panel?",
+
+        "Panel Auto-Hide": "cs-applets;panels->panel?",
+	"Auto-Hiding of Panel": "cs-applets;panels->panel?",
+	"Enable Panel Auto-Hide": "cs-applets;panels->panel?"
 	
 	"Expand Panel": "cs-applets;panels->panel?",
 	"Stretch Panel": "cs-applets;panels->panel?",
+
+        "Set Panel On The Center": "cs-applets;panels->panel?",
+	"Center The Panel": "cs-applets;panels->panel?",
 
 	"Launcher Icon Size": "cs-applets;panels->panel?",
 	
@@ -117,5 +124,10 @@
 
 	"Show Titles of Windows": "preferences-system-windows;panels->panelX->windowlist",
 	"Toggle Window Titles": "preferences-system-windows;panels->panelX->windowlist",
-	"Titles of Windows": "preferences-system-windows;panels->panelX->windowlist"
+	"Titles of Windows": "preferences-system-windows;panels->panelX->windowlist",
+
+        "Log In Sound": "cs-sound;sounds",
+        "Startup Sound": "cs-sound;sounds",
+	"Log Out Sound": "cs-sound;sounds",
+	"Shutdown Sound": "cs-sound;sounds"
 }

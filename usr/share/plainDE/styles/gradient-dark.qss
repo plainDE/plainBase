@@ -1,7 +1,7 @@
 QWidget#panel, QWidget#controlCenter,
 QWidget#appMenu, QWidget#userMenu,
 QWidget#about, QWidget#mprisApplet, QWidget#mprisCard, 
-QWidget#innerPane, QMessageBox, QWidget#powerDialog {
+QWidget#innerPane, QMessageBox, QWidget#powerDialog, QWidget#layoutChooser {
     background-color: qlineargradient(spread:pad, x1:0.523, y1:0.568182, x2:0.517, y2:1, stop:0 rgba(34, 34, 34, 255), stop:1 rgba(17, 17, 17, 255));
 }
 
