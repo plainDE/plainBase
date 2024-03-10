@@ -72,7 +72,7 @@
 
         "Panel Auto-Hide": "cs-applets;panels->panel?",
 	"Auto-Hiding of Panel": "cs-applets;panels->panel?",
-	"Enable Panel Auto-Hide": "cs-applets;panels->panel?"
+	"Enable Panel Auto-Hide": "cs-applets;panels->panel?",
 	
 	"Expand Panel": "cs-applets;panels->panel?",
 	"Stretch Panel": "cs-applets;panels->panel?",
