@@ -24,5 +24,7 @@ if configVersion != release:
                 config[commentedKey] = config[entry]
                 config[entry] = defaultConfig[entry]
 
+    config['configVersion'] = release
+
     with open(cfgPath, 'w') as cfgWriter:
         json.dump(config, cfgWriter, indent=4)
